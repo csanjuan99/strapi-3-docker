@@ -53,8 +53,8 @@ services:
       LETSENCRYPT_HOST: pma.domain.com
       LETSENCRYPT_EMAIL: admin@domain.com
       PMA_HOST: mysql
-      PMA_USER: root
-      PMA_PASSWORD: strapi
+# Auto authenticate USER_DB      PMA_USER: root
+# Auto authenticate USER_PASSWORD     PMA_PASSWORD: strapi
 
 volumes:
   domain-strapi-data:
